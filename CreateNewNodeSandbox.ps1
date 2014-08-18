@@ -42,4 +42,4 @@ $Packages | out-file package.json -Encoding ASCII;
 Start-Process powershell -ArgumentList "cd $WorkingFolder;npm install; node server.js;";
 Write-Host "Waiting for environment to set up...";
 Start-Sleep -s 7;
-start-process chrome -ArgumentList "http://localhost:3000"
+start "http://localhost:3000";
