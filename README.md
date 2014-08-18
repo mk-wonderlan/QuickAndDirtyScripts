@@ -8,10 +8,15 @@ Setting up a quick express node sandbox with a single route / => index.html usin
 
 The script creates the following files and folders:
 C:\SandBox   -Folder
+
 C:\SandBox\[DateTimeStamp] -Folder
+
 C:\SandBox\[DateTimeStamp]\Views   -Folder.
+
 C:\SandBox\[DateTimeStamp]\server.js  -node main file.
+
 C:\SandBox\[DateTimeStamp]\package.json -npm package file.
+
 C:\SandBox\[DateTimeStamp]\Views\index.html -main html-file.
 
 
