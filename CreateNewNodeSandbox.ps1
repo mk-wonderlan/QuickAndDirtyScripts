@@ -1,4 +1,3 @@
-function New-SandBox{
 $datetime = [DateTime]::Now.toString('yyyy-MM-dd_HH-mm-ss');
 $WorkingFolder = 'C:\SandBox\'+$datetime;
 mkdir $WorkingFolder;
@@ -44,4 +43,3 @@ Start-Process powershell -ArgumentList "cd $WorkingFolder;npm install; node serv
 Write-Host "Waiting for environment to set up...";
 Start-Sleep -s 7;
 start-process chrome -ArgumentList "http://localhost:3000"
-}
