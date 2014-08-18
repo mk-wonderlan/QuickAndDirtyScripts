@@ -3,7 +3,7 @@ QuickAndDirtyScripts
 
 
 
-Setting up a quick express node server
+Setting up a quick express node sandbox with a single route / => index.html using ejs 
 --Requires: node.js, npm, powershell v2/3.
 
 Run this in cmd:
