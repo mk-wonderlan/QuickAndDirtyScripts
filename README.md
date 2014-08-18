@@ -1,2 +1,17 @@
 QuickAndDirtyScripts
 ====================
+
+
+
+Setting up a quick express node server
+--Requires: node.js, npm, powershell v3 and chrome.
+
+Run this in cmd:
+```
+@powershell -NoProfile -ExecutionPolicy unrestricted -Command "iex ((new-object net.webclient).DownloadString('https://raw.githubusercontent.com/mk-wonderlan/QuickAndDirtyScripts/master/CreateNewNodeSandbox.ps1'))"
+```
+
+Or this in a powershell window with unrestricted executionpolicy:
+```powershell
+iex ((new-object net.webclient).DownloadString('https://raw.githubusercontent.com/mk-wonderlan/QuickAndDirtyScripts/master/CreateNewNodeSandbox.ps1'))
+```
