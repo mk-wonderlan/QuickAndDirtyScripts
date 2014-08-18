@@ -4,7 +4,7 @@ QuickAndDirtyScripts
 
 
 Setting up a quick express node server
---Requires: node.js, npm, powershell v3 and chrome.
+--Requires: node.js, npm, powershell v2/3.
 
 Run this in cmd:
 ```
