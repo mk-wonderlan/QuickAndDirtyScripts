@@ -7,6 +7,7 @@ Setting up a quick express node sandbox with a single route / => index.html usin
 --Requires: node.js, npm, powershell v2/3.
 
 The script creates the following files and folders:
+
 C:\SandBox   -Folder
 
 C:\SandBox\[DateTimeStamp] -Folder
